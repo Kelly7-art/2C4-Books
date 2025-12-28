@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2C4 Books App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a0dad, #ffcc00);
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.25);
+            border-radius: 18px;
+            padding: 25px;
+            margin-bottom: 22px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ffeb3b;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .logo {
+            display: block;
+            max-width: 140px;
+            margin: 15px auto;
+            border-radius: 20px;
+        }
+
+        .version {
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: block;
+            max-width: 360px;
+            margin: 22px auto;
+            padding: 16px;
+            background: #ffeb3b;
+            color: #6a0dad;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 14px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+        }
+
+        .note {
+            font-size: 14px;
+            opacity: 0.9;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            opacity: 0.8;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- APP INTRO -->
+    <div class="card">
+        <h1>📚 2C4 Books</h1>
+
+        <!-- APP LOGO -->
+        <img src="logo.png" alt="2C4 Books Logo" class="logo">
+
+        <p>
+            <b>2C4 Books App</b> is a simple textbook pack app created to support learning activities in class.
+            All required books are included inside the app for easy learning.
+        </p>
+    </div>
+
+    <!-- DOWNLOAD -->
+    <div class="card">
+        <h2>📲 Download App</h2>
+        <p>
+            Click the button below to download the Android app.
+        </p>
+
+        <a class="btn" href="https://www.dropbox.com/scl/fi/o2eir6db2pl4y73xgg4li/2C4-Books_1.0.apk?rlkey=01xxip2h297zkvz1lav0caynl&st=anl7fet6&dl=1" target="_blank">
+            ⬇ Download 2C4 Books APK
+        </a>
+        <!-- APP VERSION -->
+        <p class="version">
+            App Version: <b>v1.0</b>
+        </p>
+        <p class="note">
+            If installation is blocked, enable <b>“Install unknown apps”</b> in settings.
+        </p>
+    </div>
+
+    <!-- SCREENSHOTS -->
+    <div class="card">
+        <h2>📸 App Screenshots</h2>
+
+        <div class="screenshots">
+            <img src="screenshots/shot1.jpg" alt="Screenshot 1">
+            <img src="screenshots/shot2.jpg" alt="Screenshot 2">
+            <img src="screenshots/shot3.jpg" alt="Screenshot 3">
+            <img src="screenshots/shot4.jpg" alt="Screenshot 4">
+        </div>
+    </div>
+<p> Visit this site regularly and check for new updates to download</p>
+    <footer>
+        © 2025 • 2C4 Books • Build With ❤️ by King Kelly
+    </footer>
+
+</div>
+
+</body>
+</html>
